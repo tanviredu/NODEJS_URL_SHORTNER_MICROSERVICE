@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_url_shortner_microservice",
+  "version": "1.0.0",
+  "description": "codecamp project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanviredu/NODEJS_URL_SHORTNER_MICROSERVICE.git"
+  },
+  "author": "tanvir rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanviredu/NODEJS_URL_SHORTNER_MICROSERVICE/issues"
+  },
+  "homepage": "https://github.com/tanviredu/NODEJS_URL_SHORTNER_MICROSERVICE#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
